@@ -2,11 +2,12 @@
 
 A simple boilerplate for getting started with Nuxt projects that take advantage of Supabase for Auth and PostgreSQL. It is intended to get a functional prototype for an app up and running within minutes.
 
-[!NOTE]
-As of 11/03/2025 Nuxt has been pinned at version 4.1.3 (rather than the most recent version) due to a bug with Supabase. [Read about the issue here](https://github.com/supabase/ssr/issues/62). The error looks like this:
-```
-Uncaught (in promise) SyntaxError: The requested module '/_nuxt/@fs/Users/user/path-to-project/node_modules/cookie/dist/index.js?v=36835690' does not provide an export named 'parse' (at helpers.js?v=36835690:1:10)
-```
+> [!NOTE]
+> As of 11/03/2025 Nuxt has been pinned at version 4.1.3 (rather than the most recent version) due to a bug with Supabase. [Read about the issue here](https://github.com/supabase/ssr/issues/62). The error looks like this:
+> 
+> ```
+> Uncaught (in promise) SyntaxError: The requested module '/_nuxt/@fs/Users/user/path-to-project/node_modules/cookie/dist/index.js?v=36835690' does not provide an export named 'parse' (at helpers.js?v=36835690:1:10)
+> ```
 
 ## Architecture
 
